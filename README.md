@@ -1,6 +1,6 @@
 # ALEPH Studio T06 · 플랜두씨 다이어리 1
 
-2차 구현: 계획·할 일 + 실행 시작/완료/되돌리기 + 돌아보기 + 다음 계획 복사 + 전체 JSON 내보내기.
+최종 공개 검증 완료: 계획·할 일 + 실행 시작/완료/되돌리기 + 돌아보기 + 다음 계획 복사 + 전체 JSON 내보내기.
 T05의 파일·DB·배포 설정은 재사용하거나 수정하지 않습니다.
 
 ## 실행
@@ -36,7 +36,7 @@ API 요청은 같은 출처의 프록시를 통해 로컬 서버로 전달됩니
 
 로컬의 `_migrations`는 마이그레이션 관리 전용 테이블입니다.
 업무 데이터 계약과 내보내기 대상은 위 여섯 테이블입니다.
-`contracts/pds-schema-v2.json`에 테이블 필드·관계·시간 규칙 및 향후 내보내기 형식을 정의했습니다.
+`contracts/pds-schema-v2.json`에 테이블 필드·관계·시간 규칙 및 전체 JSON 내보내기 형식을 정의했습니다.
 공식 ALEPH 계약 원본이 별도로 제공되면 추가 대조가 필요합니다.
 
 계획 수정은 이전 버전의 UPDATE가 아니라 새 버전 INSERT와 현재 버전 변경을 하나의 트랜잭션으로 처리합니다.
@@ -46,7 +46,7 @@ DB 트리거가 기존 버전의 UPDATE 및 DELETE를 거부합니다.
 할 일 삭제는 `deleted_at`을 설정하는 방식입니다. 목록에서 사라지지만 원본 행과 태그 관계는 보존됩니다.
 동일 이름의 태그는 중복 생성하지 않습니다. 내용·태그·날짜 조건은 SQL parameter binding으로 처리하며 정렬은 허용된 값만 선택합니다.
 
-## 1차 API
+## API
 
 | 메서드와 경로 | 동작 |
 |---|---|
@@ -158,17 +158,26 @@ npm.cmd run test:e2e
 DB/API/계약 테스트 47개와 실제 Chromium 브라우저 테스트 14개, 총 61개가 통과했습니다.
 테스트 DB는 운영 DB와 분리한 임시 디렉터리에 생성하고 테스트 종료 후 정리합니다.
 테스트 전용 계획과 실행 제약 검사용 행은 실제 사용 데이터로 저장하지 않습니다.
-현재 검증 근거는 `evidence/phase2-acceptance.md`, `evidence/unit-results.json`, `evidence/browser-results.json`에 있습니다.
-`evidence/acceptance.md`는 1차 구현 당시의 기록입니다.
+최종 검증 근거는 [evidence/final-public-acceptance.md](evidence/final-public-acceptance.md), `evidence/final-unit-results.json`, `evidence/browser-results.json`에 있습니다.
+`evidence/acceptance.md`, `evidence/phase2-acceptance.md`, `evidence/unit-results.json`은 이전 구현 단계의 기록입니다.
 
-## 실제 사용과 다음 단계
+## 최종 운영 검증 상태 (2026-10-02)
 
-운영 DB는 빈 상태로 시작합니다. 사용자가 화면에서 실제 계획과 할 일을 직접 입력할 수 있습니다.
+공개 앱 배포와 실제 운영 D1 연결을 완료했으며, 사용자가 입력한 실제 기록으로 최종 검증했습니다.
 시작/완료/되돌리기와 돌아보기·복사·다운로드를 로컬 서버와 공개 앱에서 사용할 수 있습니다.
-공개 URL: https://aleph-t06-pds-diary.aleph-t04-eunsu.workers.dev
-실제 사용 기록은 자동 생성하지 않았습니다. 사용자가 직접 계획 1개, 할 일 5개 이상, 실제 완료 실행 3개 이상을 남겨야 최종 사용 기준을 확인할 수 있습니다.
+공개 URL: [T06 공개 앱](https://aleph-t06-pds-diary.aleph-t04-eunsu.workers.dev)
+독립 Git 저장소: [eunsu7997/t06-plandosee-diary](https://github.com/eunsu7997/t06-plandosee-diary) (`main`, T05 저장소와 별개).
+
+- 실제 계획 2개, plan_versions 3개: 1주차 v1/v2 및 2주차 v1. 1주차 수정 전후 ID 유지와 최초 버전 보존을 확인했습니다.
+- 실제 할 일 6개(원본 5개 + 복사 1개), 완료한 할 일 3개, 종료 실행 기록 4개.
+- 완료한 Linux 할 일을 2주차 계획으로 복사했습니다. 새 plan/task ID와 `copied_from_task_id`의 원본 연결을 확인했고, 복사본 실행 기록은 0개입니다. 원본 Linux 실행 기록 2개도 보존되었습니다.
+- 돌아보기를 D1 원시 데이터와 직접 대조했습니다: 할 일 예상 28,800초, 실제 24초, 차이 −28,776초.
+- 전체 JSON 다운로드의 모든 테이블과 ID 관계를 검증했고, 새로고침 후 유지 및 독립 브라우저 세션 2개의 동일 데이터 조회도 통과했습니다. 로그인은 필요하지 않습니다.
+- 자동 테스트 61 PASS / 0 FAIL, TypeScript·빌드 PASS, 계약/D1 구조 일치 및 실제 기록에 민감정보가 없음을 확인했습니다.
+
+최종 근거: [evidence/final-public-acceptance.md](evidence/final-public-acceptance.md). 위 수치는 최종 검증 시점의 운영 기록입니다.
 돌아보기의 기본 예상 시간은 **할 일 estimated_seconds 합계**이며, 계획 자체의 예상 시간은 별도로 표시합니다.
 
 공개 배포용 Hono Worker와 D1 어댑터는 로컬 SQLite 진입점과 분리되어 있습니다.
 T06 전용 D1 `aleph-t06-pds-diary-db`를 생성하고 `wrangler.jsonc`의 `DB` 바인딩에 연결했습니다.
-운영 D1에는 fixture나 로컬 SQLite 내용을 복사하지 않습니다. 원격 migration 적용 및 공개 배포 진행 상태는 `DEPLOYMENT.md`를 확인하세요.
+운영 D1에는 fixture나 로컬 SQLite 내용을 복사하지 않았습니다. 원격 migration 적용 및 공개 배포 기록은 [DEPLOYMENT.md](DEPLOYMENT.md)를 확인하세요.

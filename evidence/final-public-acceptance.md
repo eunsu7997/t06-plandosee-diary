@@ -88,6 +88,8 @@
 
 ## Git와 제출
 
-사용자가 승인한 eunsu7997 / eunsu7997@users.noreply.github.com을 저장소 로컬에만 설정한다. Git 루트는 부모 과제로 T05와 공유되며 중첩 저장소나 전역 설정은 만들지 않는다. T06 경로만 커밋하고 T05는 변경/포함하지 않는다. 생성물/환경 파일/Cloudflare 인증정보 제외. 커밋 메시지: T06: complete public D1 diary verification. 커밋 ID는 최종 응답 및 Git 로그에 기록한다.
+T06은 독립 Git 저장소로 관리하며 T05 저장소와 별개다. 공개 저장소는 [eunsu7997/t06-plandosee-diary](https://github.com/eunsu7997/t06-plandosee-diary)이고 현재 `main` 브랜치를 기준으로 한다. T05 파일은 포함하지 않는다. 생성물/환경 파일/Cloudflare 인증정보도 제외한다.
+
+Git 작성자 eunsu7997 / eunsu7997@users.noreply.github.com은 저장소 로컬 설정을 사용하며 전역 설정은 사용하지 않는다. 이번 문서 정리 커밋 메시지는 `T06: sync final submission documentation`이다. 문서 수정 전 커밋 대신 이번 수정 후 생성되는 새 커밋 ID를 최종 보고와 Git 로그에 기록한다.
 
 최종 제출을 막는 발견된 문제 없음. 초기 단계 증거 파일은 당시 상태의 역사 자료이고 현재 결과는 이 문서가 기준이다.
