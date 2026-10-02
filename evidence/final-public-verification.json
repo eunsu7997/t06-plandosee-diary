@@ -1,0 +1,384 @@
+{
+  "verified_at": "2026-10-02T07:52:02.022Z",
+  "url": "https://aleph-t06-pds-diary.aleph-t04-eunsu.workers.dev",
+  "counts": {
+    "plans": 2,
+    "plan_versions": 3,
+    "tasks": 6,
+    "tags": 9,
+    "task_tags": 12,
+    "execution_logs": 4
+  },
+  "completed_tasks": 3,
+  "closed_executions": 4,
+  "review": {
+    "as_of": "2026-10-02T07:52:01.342Z",
+    "today": "2026-10-02",
+    "timezone": "Asia/Seoul",
+    "plan_count": 2,
+    "completed_count": 3,
+    "delayed_count": 0,
+    "plan_estimated_seconds": 50400,
+    "task_estimated_seconds": 28800,
+    "actual_seconds": 24,
+    "difference_seconds": -28776,
+    "evidence": {
+      "plans": [
+        {
+          "id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+          "current_version": 2,
+          "created_at": "2026-10-02T07:26:12.487Z",
+          "updated_at": "2026-10-02T07:43:16.978Z",
+          "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+          "version": 2,
+          "title": "AI 인프라 취업 준비 1주 계획",
+          "period_start": "2026-10-02",
+          "period_end": "2026-10-08",
+          "success_criteria": "AI 인프라 취업 준비와 관련된 핵심 할 일 5개를 계획하고, 그중 3개 이상을 실제 실행 기록으로 완료한다. 포트폴리오 기록까지 정리한다.",
+          "estimated_seconds": 25200,
+          "recorded_at": "2026-10-02T07:43:16.978Z"
+        },
+        {
+          "id": "bd38558c-e85c-4048-88d6-15a70f29b959",
+          "current_version": 1,
+          "created_at": "2026-10-02T07:45:13.372Z",
+          "updated_at": "2026-10-02T07:45:13.372Z",
+          "plan_id": "bd38558c-e85c-4048-88d6-15a70f29b959",
+          "version": 1,
+          "title": "AI 인프라 취업 준비 2주차 계획",
+          "period_start": "2026-10-09",
+          "period_end": "2026-10-15",
+          "success_criteria": "다음 계획 성공 기준\n1주차에서 완료한 핵심 학습을 이어서 실습 중심으로 확장하고, Docker·Kubernetes·포트폴리오 정리를 진행한다.",
+          "estimated_seconds": 25200,
+          "recorded_at": "2026-10-02T07:45:13.372Z"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1738af29-3702-4bed-8346-07dc7e1836ac",
+          "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+          "content": "KubeLLM-Ops README 정리",
+          "priority": "low",
+          "due_date": "2026-10-06",
+          "estimated_seconds": 7200,
+          "status": "in_progress",
+          "completed_at": null,
+          "copied_from_task_id": null,
+          "created_at": "2026-10-02T07:28:52.823Z",
+          "updated_at": "2026-10-02T07:28:52.823Z",
+          "deleted_at": null,
+          "tags": [
+            {
+              "id": "6fdaf57b-cf44-4708-ab6d-8b8953b5e617",
+              "name": "KubeLLM"
+            },
+            {
+              "id": "9a946728-490b-47bd-ae87-bc222456ecc2",
+              "name": "Portfolio"
+            }
+          ]
+        },
+        {
+          "id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+          "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+          "content": "Linux 명령어 복습",
+          "priority": "high",
+          "due_date": "2026-10-03",
+          "estimated_seconds": 3600,
+          "status": "completed",
+          "completed_at": "2026-10-02T07:30:47.184Z",
+          "copied_from_task_id": null,
+          "created_at": "2026-10-02T07:27:18.879Z",
+          "updated_at": "2026-10-02T07:30:47.184Z",
+          "deleted_at": null,
+          "tags": [
+            {
+              "id": "f9924621-378a-45fa-997f-b6839c710421",
+              "name": "Linux"
+            },
+            {
+              "id": "a25ccc05-3400-4575-80e8-55f5ad369bfe",
+              "name": "학습"
+            }
+          ]
+        },
+        {
+          "id": "5ac9bb66-0a7b-4851-bfcb-9316674407a0",
+          "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+          "content": "AI 인프라 채용공고 3개 분석",
+          "priority": "medium",
+          "due_date": "2026-10-07",
+          "estimated_seconds": 3600,
+          "status": "in_progress",
+          "completed_at": null,
+          "copied_from_task_id": null,
+          "created_at": "2026-10-02T07:29:09.921Z",
+          "updated_at": "2026-10-02T07:29:09.921Z",
+          "deleted_at": null,
+          "tags": [
+            {
+              "id": "fc2673ec-b87b-47df-b1ae-3dfa419724e7",
+              "name": "Career"
+            },
+            {
+              "id": "654b2c7f-ceeb-451a-a3d7-8f3195b46ac5",
+              "name": "취업"
+            }
+          ]
+        },
+        {
+          "id": "958c3c03-b1e3-4521-baa3-554f5be63899",
+          "plan_id": "bd38558c-e85c-4048-88d6-15a70f29b959",
+          "content": "Linux 명령어 복습",
+          "priority": "high",
+          "due_date": "2026-10-10",
+          "estimated_seconds": 3600,
+          "status": "in_progress",
+          "completed_at": null,
+          "copied_from_task_id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+          "created_at": "2026-10-02T07:45:13.372Z",
+          "updated_at": "2026-10-02T07:45:13.372Z",
+          "deleted_at": null,
+          "tags": [
+            {
+              "id": "f9924621-378a-45fa-997f-b6839c710421",
+              "name": "Linux"
+            },
+            {
+              "id": "a25ccc05-3400-4575-80e8-55f5ad369bfe",
+              "name": "학습"
+            }
+          ]
+        },
+        {
+          "id": "ce2f3044-71d1-4842-901d-06062c4f501b",
+          "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+          "content": "Docker 기본 명령 실습",
+          "priority": "high",
+          "due_date": "2026-10-04",
+          "estimated_seconds": 5400,
+          "status": "completed",
+          "completed_at": "2026-10-02T07:29:59.189Z",
+          "copied_from_task_id": null,
+          "created_at": "2026-10-02T07:28:01.946Z",
+          "updated_at": "2026-10-02T07:29:59.189Z",
+          "deleted_at": null,
+          "tags": [
+            {
+              "id": "c03c7a07-19f5-4284-a1e2-a80d1818a282",
+              "name": "Docker"
+            },
+            {
+              "id": "fc3c674c-905b-4bed-b00c-bcf3877ff1ec",
+              "name": "실습"
+            }
+          ]
+        },
+        {
+          "id": "f63e4ea7-a6bd-4391-ab26-48fa3f77b069",
+          "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+          "content": "Kubernetes Pod/Service 복습",
+          "priority": "high",
+          "due_date": "2026-10-05",
+          "estimated_seconds": 5400,
+          "status": "completed",
+          "completed_at": "2026-10-02T07:30:05.665Z",
+          "copied_from_task_id": null,
+          "created_at": "2026-10-02T07:28:20.135Z",
+          "updated_at": "2026-10-02T07:30:05.665Z",
+          "deleted_at": null,
+          "tags": [
+            {
+              "id": "dcfbb319-5b55-490f-baf9-529ecd5e31e2",
+              "name": "Kubernetes"
+            },
+            {
+              "id": "a25ccc05-3400-4575-80e8-55f5ad369bfe",
+              "name": "학습"
+            }
+          ]
+        }
+      ],
+      "completed_tasks": [
+        {
+          "id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+          "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+          "content": "Linux 명령어 복습",
+          "priority": "high",
+          "due_date": "2026-10-03",
+          "estimated_seconds": 3600,
+          "status": "completed",
+          "completed_at": "2026-10-02T07:30:47.184Z",
+          "copied_from_task_id": null,
+          "created_at": "2026-10-02T07:27:18.879Z",
+          "updated_at": "2026-10-02T07:30:47.184Z",
+          "deleted_at": null,
+          "tags": [
+            {
+              "id": "f9924621-378a-45fa-997f-b6839c710421",
+              "name": "Linux"
+            },
+            {
+              "id": "a25ccc05-3400-4575-80e8-55f5ad369bfe",
+              "name": "학습"
+            }
+          ]
+        },
+        {
+          "id": "ce2f3044-71d1-4842-901d-06062c4f501b",
+          "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+          "content": "Docker 기본 명령 실습",
+          "priority": "high",
+          "due_date": "2026-10-04",
+          "estimated_seconds": 5400,
+          "status": "completed",
+          "completed_at": "2026-10-02T07:29:59.189Z",
+          "copied_from_task_id": null,
+          "created_at": "2026-10-02T07:28:01.946Z",
+          "updated_at": "2026-10-02T07:29:59.189Z",
+          "deleted_at": null,
+          "tags": [
+            {
+              "id": "c03c7a07-19f5-4284-a1e2-a80d1818a282",
+              "name": "Docker"
+            },
+            {
+              "id": "fc3c674c-905b-4bed-b00c-bcf3877ff1ec",
+              "name": "실습"
+            }
+          ]
+        },
+        {
+          "id": "f63e4ea7-a6bd-4391-ab26-48fa3f77b069",
+          "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+          "content": "Kubernetes Pod/Service 복습",
+          "priority": "high",
+          "due_date": "2026-10-05",
+          "estimated_seconds": 5400,
+          "status": "completed",
+          "completed_at": "2026-10-02T07:30:05.665Z",
+          "copied_from_task_id": null,
+          "created_at": "2026-10-02T07:28:20.135Z",
+          "updated_at": "2026-10-02T07:30:05.665Z",
+          "deleted_at": null,
+          "tags": [
+            {
+              "id": "dcfbb319-5b55-490f-baf9-529ecd5e31e2",
+              "name": "Kubernetes"
+            },
+            {
+              "id": "a25ccc05-3400-4575-80e8-55f5ad369bfe",
+              "name": "학습"
+            }
+          ]
+        }
+      ],
+      "delayed_tasks": [],
+      "closed_executions": [
+        {
+          "id": "30a48fef-a7c8-449d-9cca-cf5fd354bc6c",
+          "task_id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+          "started_at": "2026-10-02T07:29:40.130Z",
+          "ended_at": "2026-10-02T07:29:52.955Z",
+          "actual_seconds": 12,
+          "estimated_seconds_at_start": 3600,
+          "start_request_id": "5c384db8-54c2-44f4-99fe-83a4d9743e2d",
+          "finish_request_id": "7777f7a8-cb16-4319-bdb4-4b2671d5dec1"
+        },
+        {
+          "id": "fa23f40e-439e-440b-9739-2309a78b354b",
+          "task_id": "ce2f3044-71d1-4842-901d-06062c4f501b",
+          "started_at": "2026-10-02T07:29:53.971Z",
+          "ended_at": "2026-10-02T07:29:59.189Z",
+          "actual_seconds": 5,
+          "estimated_seconds_at_start": 5400,
+          "start_request_id": "266ee000-f4c1-4b3c-8671-ab125de7b831",
+          "finish_request_id": "08b3bc5d-d3c6-4aff-8759-3808f24a35c7"
+        },
+        {
+          "id": "84b62ead-585f-40cf-8656-e9bab08ddfc5",
+          "task_id": "f63e4ea7-a6bd-4391-ab26-48fa3f77b069",
+          "started_at": "2026-10-02T07:30:01.985Z",
+          "ended_at": "2026-10-02T07:30:05.665Z",
+          "actual_seconds": 3,
+          "estimated_seconds_at_start": 5400,
+          "start_request_id": "c32980ca-46cb-4027-b035-9c2aa68494f4",
+          "finish_request_id": "3579616d-c0e0-4d9e-9e8d-97bf44b566f8"
+        },
+        {
+          "id": "cb96283b-4e11-4053-aeeb-2ef8cf9c0bf4",
+          "task_id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+          "started_at": "2026-10-02T07:30:42.988Z",
+          "ended_at": "2026-10-02T07:30:47.184Z",
+          "actual_seconds": 4,
+          "estimated_seconds_at_start": 3600,
+          "start_request_id": "9c36eb64-e5ad-4742-af5d-2f221eaf227b",
+          "finish_request_id": "dc016c6e-875a-45a5-9c7b-c6a76bc0be51"
+        }
+      ],
+      "active_executions": []
+    }
+  },
+  "linux_logs": [
+    {
+      "id": "30a48fef-a7c8-449d-9cca-cf5fd354bc6c",
+      "task_id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+      "started_at": "2026-10-02T07:29:40.130Z",
+      "ended_at": "2026-10-02T07:29:52.955Z",
+      "actual_seconds": 12,
+      "estimated_seconds_at_start": 3600,
+      "start_request_id": "5c384db8-54c2-44f4-99fe-83a4d9743e2d",
+      "finish_request_id": "7777f7a8-cb16-4319-bdb4-4b2671d5dec1"
+    },
+    {
+      "id": "cb96283b-4e11-4053-aeeb-2ef8cf9c0bf4",
+      "task_id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+      "started_at": "2026-10-02T07:30:42.988Z",
+      "ended_at": "2026-10-02T07:30:47.184Z",
+      "actual_seconds": 4,
+      "estimated_seconds_at_start": 3600,
+      "start_request_id": "9c36eb64-e5ad-4742-af5d-2f221eaf227b",
+      "finish_request_id": "dc016c6e-875a-45a5-9c7b-c6a76bc0be51"
+    }
+  ],
+  "copy_count": 1,
+  "copies": [
+    {
+      "id": "958c3c03-b1e3-4521-baa3-554f5be63899",
+      "plan_id": "bd38558c-e85c-4048-88d6-15a70f29b959",
+      "content": "Linux 명령어 복습",
+      "priority": "high",
+      "due_date": "2026-10-10",
+      "estimated_seconds": 3600,
+      "status": "in_progress",
+      "completed_at": null,
+      "copied_from_task_id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+      "created_at": "2026-10-02T07:45:13.372Z",
+      "updated_at": "2026-10-02T07:45:13.372Z",
+      "deleted_at": null
+    }
+  ],
+  "original_plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+  "original_plan_version": 2,
+  "original_version_preserved": true,
+  "user_download_matches_d1": true,
+  "history_plans": [
+    "592870a1-8e4f-47d0-96ed-d8c60e7c30ff"
+  ],
+  "schema_matches_d1": true,
+  "browserChecks": [
+    "context 1: anonymous, actual DB, reload, localStorage empty, no JS errors",
+    "context 2: anonymous, actual DB, reload, localStorage empty, no JS errors"
+  ],
+  "preservation": {
+    "plans": false,
+    "plan_versions": true,
+    "tasks": true,
+    "tags": true,
+    "task_tags": true,
+    "execution_logs": true
+  },
+  "history_screen_verified": true,
+  "sensitive_scan": "no credential/contact patterns; free text manually review",
+  "pending": []
+}

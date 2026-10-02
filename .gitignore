@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.data/
+.wrangler/
+test-results/
+playwright-report/
+.browser/
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key

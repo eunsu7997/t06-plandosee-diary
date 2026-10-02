@@ -1,0 +1,13 @@
+{
+  "verified_at": "2026-10-02T07:22:38.178Z",
+  "url": "https://aleph-t06-pds-diary.aleph-t04-eunsu.workers.dev",
+  "mode": "read-only; no production fixtures",
+  "checks": [
+    "single JSON download matches schema",
+    "isolated browser context 1: anonymous UI, D1 reads, zero aggregates, reload, no localStorage data, no JS errors",
+    "isolated browser context 2: anonymous UI, D1 reads, zero aggregates, reload, no localStorage data, no JS errors",
+    "two isolated browser sessions return identical DB data"
+  ],
+  "passed": true,
+  "pending": "User-entered real records required to verify production writes and nonempty persistence."
+}

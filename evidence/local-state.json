@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-02T06:43:38.408Z",
+  "health": {
+    "ok": true,
+    "stage": 2,
+    "storage": "server-sqlite",
+    "timezone": "Asia/Seoul"
+  },
+  "review": {
+    "plan_count": 0,
+    "completed_count": 0,
+    "delayed_count": 0,
+    "plan_estimated_seconds": 0,
+    "task_estimated_seconds": 0,
+    "actual_seconds": 0,
+    "difference_seconds": 0
+  },
+  "table_counts": {
+    "plans": 0,
+    "plan_versions": 0,
+    "tasks": 0,
+    "tags": 0,
+    "task_tags": 0,
+    "execution_logs": 0
+  }
+}

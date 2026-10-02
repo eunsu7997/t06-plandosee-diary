@@ -1,0 +1,1157 @@
+[
+  {
+    "results": [
+      {
+        "id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+        "current_version": 2,
+        "created_at": "2026-10-02T07:26:12.487Z",
+        "updated_at": "2026-10-02T07:43:16.978Z"
+      },
+      {
+        "id": "bd38558c-e85c-4048-88d6-15a70f29b959",
+        "current_version": 1,
+        "created_at": "2026-10-02T07:45:13.372Z",
+        "updated_at": "2026-10-02T07:45:13.372Z"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.1667
+      },
+      "duration": 0.1667,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 2,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+        "version": 1,
+        "title": "AI 인프라 취업 준비 1주 계획",
+        "period_start": "2026-10-02",
+        "period_end": "2026-10-08",
+        "success_criteria": "AI 인프라 취업 준비와 관련된 핵심 할 일 5개를 계획하고, 그중 3개 이상을 실제 실행 기록으로 완료한다.",
+        "estimated_seconds": 25200,
+        "recorded_at": "2026-10-02T07:26:12.487Z"
+      },
+      {
+        "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+        "version": 2,
+        "title": "AI 인프라 취업 준비 1주 계획",
+        "period_start": "2026-10-02",
+        "period_end": "2026-10-08",
+        "success_criteria": "AI 인프라 취업 준비와 관련된 핵심 할 일 5개를 계획하고, 그중 3개 이상을 실제 실행 기록으로 완료한다. 포트폴리오 기록까지 정리한다.",
+        "estimated_seconds": 25200,
+        "recorded_at": "2026-10-02T07:43:16.978Z"
+      },
+      {
+        "plan_id": "bd38558c-e85c-4048-88d6-15a70f29b959",
+        "version": 1,
+        "title": "AI 인프라 취업 준비 2주차 계획",
+        "period_start": "2026-10-09",
+        "period_end": "2026-10-15",
+        "success_criteria": "다음 계획 성공 기준\n1주차에서 완료한 핵심 학습을 이어서 실습 중심으로 확장하고, Docker·Kubernetes·포트폴리오 정리를 진행한다.",
+        "estimated_seconds": 25200,
+        "recorded_at": "2026-10-02T07:45:13.372Z"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.1382
+      },
+      "duration": 0.1382,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 3,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "id": "1738af29-3702-4bed-8346-07dc7e1836ac",
+        "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+        "content": "KubeLLM-Ops README 정리",
+        "priority": "low",
+        "due_date": "2026-10-06",
+        "estimated_seconds": 7200,
+        "status": "in_progress",
+        "completed_at": null,
+        "copied_from_task_id": null,
+        "created_at": "2026-10-02T07:28:52.823Z",
+        "updated_at": "2026-10-02T07:28:52.823Z",
+        "deleted_at": null
+      },
+      {
+        "id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+        "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+        "content": "Linux 명령어 복습",
+        "priority": "high",
+        "due_date": "2026-10-03",
+        "estimated_seconds": 3600,
+        "status": "completed",
+        "completed_at": "2026-10-02T07:30:47.184Z",
+        "copied_from_task_id": null,
+        "created_at": "2026-10-02T07:27:18.879Z",
+        "updated_at": "2026-10-02T07:30:47.184Z",
+        "deleted_at": null
+      },
+      {
+        "id": "5ac9bb66-0a7b-4851-bfcb-9316674407a0",
+        "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+        "content": "AI 인프라 채용공고 3개 분석",
+        "priority": "medium",
+        "due_date": "2026-10-07",
+        "estimated_seconds": 3600,
+        "status": "in_progress",
+        "completed_at": null,
+        "copied_from_task_id": null,
+        "created_at": "2026-10-02T07:29:09.921Z",
+        "updated_at": "2026-10-02T07:29:09.921Z",
+        "deleted_at": null
+      },
+      {
+        "id": "958c3c03-b1e3-4521-baa3-554f5be63899",
+        "plan_id": "bd38558c-e85c-4048-88d6-15a70f29b959",
+        "content": "Linux 명령어 복습",
+        "priority": "high",
+        "due_date": "2026-10-10",
+        "estimated_seconds": 3600,
+        "status": "in_progress",
+        "completed_at": null,
+        "copied_from_task_id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+        "created_at": "2026-10-02T07:45:13.372Z",
+        "updated_at": "2026-10-02T07:45:13.372Z",
+        "deleted_at": null
+      },
+      {
+        "id": "ce2f3044-71d1-4842-901d-06062c4f501b",
+        "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+        "content": "Docker 기본 명령 실습",
+        "priority": "high",
+        "due_date": "2026-10-04",
+        "estimated_seconds": 5400,
+        "status": "completed",
+        "completed_at": "2026-10-02T07:29:59.189Z",
+        "copied_from_task_id": null,
+        "created_at": "2026-10-02T07:28:01.946Z",
+        "updated_at": "2026-10-02T07:29:59.189Z",
+        "deleted_at": null
+      },
+      {
+        "id": "f63e4ea7-a6bd-4391-ab26-48fa3f77b069",
+        "plan_id": "592870a1-8e4f-47d0-96ed-d8c60e7c30ff",
+        "content": "Kubernetes Pod/Service 복습",
+        "priority": "high",
+        "due_date": "2026-10-05",
+        "estimated_seconds": 5400,
+        "status": "completed",
+        "completed_at": "2026-10-02T07:30:05.665Z",
+        "copied_from_task_id": null,
+        "created_at": "2026-10-02T07:28:20.135Z",
+        "updated_at": "2026-10-02T07:30:05.665Z",
+        "deleted_at": null
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.1474
+      },
+      "duration": 0.1474,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 6,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "id": "654b2c7f-ceeb-451a-a3d7-8f3195b46ac5",
+        "name": "취업"
+      },
+      {
+        "id": "6fdaf57b-cf44-4708-ab6d-8b8953b5e617",
+        "name": "KubeLLM"
+      },
+      {
+        "id": "9a946728-490b-47bd-ae87-bc222456ecc2",
+        "name": "Portfolio"
+      },
+      {
+        "id": "a25ccc05-3400-4575-80e8-55f5ad369bfe",
+        "name": "학습"
+      },
+      {
+        "id": "c03c7a07-19f5-4284-a1e2-a80d1818a282",
+        "name": "Docker"
+      },
+      {
+        "id": "dcfbb319-5b55-490f-baf9-529ecd5e31e2",
+        "name": "Kubernetes"
+      },
+      {
+        "id": "f9924621-378a-45fa-997f-b6839c710421",
+        "name": "Linux"
+      },
+      {
+        "id": "fc2673ec-b87b-47df-b1ae-3dfa419724e7",
+        "name": "Career"
+      },
+      {
+        "id": "fc3c674c-905b-4bed-b00c-bcf3877ff1ec",
+        "name": "실습"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.1153
+      },
+      "duration": 0.1153,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 9,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "task_id": "1738af29-3702-4bed-8346-07dc7e1836ac",
+        "tag_id": "6fdaf57b-cf44-4708-ab6d-8b8953b5e617"
+      },
+      {
+        "task_id": "1738af29-3702-4bed-8346-07dc7e1836ac",
+        "tag_id": "9a946728-490b-47bd-ae87-bc222456ecc2"
+      },
+      {
+        "task_id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+        "tag_id": "a25ccc05-3400-4575-80e8-55f5ad369bfe"
+      },
+      {
+        "task_id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+        "tag_id": "f9924621-378a-45fa-997f-b6839c710421"
+      },
+      {
+        "task_id": "5ac9bb66-0a7b-4851-bfcb-9316674407a0",
+        "tag_id": "654b2c7f-ceeb-451a-a3d7-8f3195b46ac5"
+      },
+      {
+        "task_id": "5ac9bb66-0a7b-4851-bfcb-9316674407a0",
+        "tag_id": "fc2673ec-b87b-47df-b1ae-3dfa419724e7"
+      },
+      {
+        "task_id": "958c3c03-b1e3-4521-baa3-554f5be63899",
+        "tag_id": "a25ccc05-3400-4575-80e8-55f5ad369bfe"
+      },
+      {
+        "task_id": "958c3c03-b1e3-4521-baa3-554f5be63899",
+        "tag_id": "f9924621-378a-45fa-997f-b6839c710421"
+      },
+      {
+        "task_id": "ce2f3044-71d1-4842-901d-06062c4f501b",
+        "tag_id": "c03c7a07-19f5-4284-a1e2-a80d1818a282"
+      },
+      {
+        "task_id": "ce2f3044-71d1-4842-901d-06062c4f501b",
+        "tag_id": "fc3c674c-905b-4bed-b00c-bcf3877ff1ec"
+      },
+      {
+        "task_id": "f63e4ea7-a6bd-4391-ab26-48fa3f77b069",
+        "tag_id": "a25ccc05-3400-4575-80e8-55f5ad369bfe"
+      },
+      {
+        "task_id": "f63e4ea7-a6bd-4391-ab26-48fa3f77b069",
+        "tag_id": "dcfbb319-5b55-490f-baf9-529ecd5e31e2"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.1502
+      },
+      "duration": 0.1502,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 12,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "id": "30a48fef-a7c8-449d-9cca-cf5fd354bc6c",
+        "task_id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+        "started_at": "2026-10-02T07:29:40.130Z",
+        "ended_at": "2026-10-02T07:29:52.955Z",
+        "actual_seconds": 12,
+        "estimated_seconds_at_start": 3600,
+        "start_request_id": "5c384db8-54c2-44f4-99fe-83a4d9743e2d",
+        "finish_request_id": "7777f7a8-cb16-4319-bdb4-4b2671d5dec1"
+      },
+      {
+        "id": "84b62ead-585f-40cf-8656-e9bab08ddfc5",
+        "task_id": "f63e4ea7-a6bd-4391-ab26-48fa3f77b069",
+        "started_at": "2026-10-02T07:30:01.985Z",
+        "ended_at": "2026-10-02T07:30:05.665Z",
+        "actual_seconds": 3,
+        "estimated_seconds_at_start": 5400,
+        "start_request_id": "c32980ca-46cb-4027-b035-9c2aa68494f4",
+        "finish_request_id": "3579616d-c0e0-4d9e-9e8d-97bf44b566f8"
+      },
+      {
+        "id": "cb96283b-4e11-4053-aeeb-2ef8cf9c0bf4",
+        "task_id": "52bbc724-bb15-4213-9e54-524cce0809c7",
+        "started_at": "2026-10-02T07:30:42.988Z",
+        "ended_at": "2026-10-02T07:30:47.184Z",
+        "actual_seconds": 4,
+        "estimated_seconds_at_start": 3600,
+        "start_request_id": "9c36eb64-e5ad-4742-af5d-2f221eaf227b",
+        "finish_request_id": "dc016c6e-875a-45a5-9c7b-c6a76bc0be51"
+      },
+      {
+        "id": "fa23f40e-439e-440b-9739-2309a78b354b",
+        "task_id": "ce2f3044-71d1-4842-901d-06062c4f501b",
+        "started_at": "2026-10-02T07:29:53.971Z",
+        "ended_at": "2026-10-02T07:29:59.189Z",
+        "actual_seconds": 5,
+        "estimated_seconds_at_start": 5400,
+        "start_request_id": "266ee000-f4c1-4b3c-8671-ab125de7b831",
+        "finish_request_id": "08b3bc5d-d3c6-4aff-8759-3808f24a35c7"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.1396
+      },
+      "duration": 0.1396,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 4,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "name": "_cf_KV",
+        "type": "table",
+        "sql": "CREATE TABLE _cf_KV (\n        key TEXT PRIMARY KEY,\n        value BLOB\n      ) WITHOUT ROWID"
+      },
+      {
+        "name": "d1_migrations",
+        "type": "table",
+        "sql": "CREATE TABLE \"d1_migrations\"(\n\t\tid         INTEGER PRIMARY KEY AUTOINCREMENT,\n\t\tname       TEXT UNIQUE,\n\t\tapplied_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL\n)"
+      },
+      {
+        "name": "execution_closed_immutable",
+        "type": "trigger",
+        "sql": "CREATE TRIGGER execution_closed_immutable BEFORE UPDATE ON execution_logs\nWHEN OLD.ended_at IS NOT NULL\nBEGIN SELECT RAISE(ABORT, 'closed execution is immutable'); END"
+      },
+      {
+        "name": "execution_complete_task",
+        "type": "trigger",
+        "sql": "CREATE TRIGGER execution_complete_task AFTER UPDATE OF ended_at ON execution_logs\nWHEN OLD.ended_at IS NULL AND NEW.ended_at IS NOT NULL\nBEGIN\n  UPDATE tasks SET status = 'completed', completed_at = NEW.ended_at, updated_at = NEW.ended_at\n  WHERE id = NEW.task_id;\nEND"
+      },
+      {
+        "name": "execution_duration_guard",
+        "type": "trigger",
+        "sql": "CREATE TRIGGER execution_duration_guard BEFORE UPDATE ON execution_logs\nWHEN OLD.ended_at IS NULL AND NEW.ended_at IS NOT NULL AND (\n  typeof(NEW.actual_seconds) <> 'integer' OR\n  NEW.actual_seconds <> (\n    (CAST(strftime('%s', NEW.ended_at) AS INTEGER) * 1000 + CAST(substr(NEW.ended_at, 21, 3) AS INTEGER)) -\n    (CAST(strftime('%s', NEW.started_at) AS INTEGER) * 1000 + CAST(substr(NEW.started_at, 21, 3) AS INTEGER))\n  ) / 1000\n)\nBEGIN SELECT RAISE(ABORT, 'execution duration does not match timestamps'); END"
+      },
+      {
+        "name": "execution_identity_immutable",
+        "type": "trigger",
+        "sql": "CREATE TRIGGER execution_identity_immutable BEFORE UPDATE ON execution_logs\nWHEN NEW.id IS NOT OLD.id OR NEW.task_id IS NOT OLD.task_id\n  OR NEW.started_at IS NOT OLD.started_at OR NEW.start_request_id IS NOT OLD.start_request_id\n  OR NEW.estimated_seconds_at_start IS NOT OLD.estimated_seconds_at_start\nBEGIN SELECT RAISE(ABORT, 'execution identity is immutable'); END"
+      },
+      {
+        "name": "execution_logs",
+        "type": "table",
+        "sql": "CREATE TABLE execution_logs (\n  id TEXT PRIMARY KEY NOT NULL,\n  task_id TEXT NOT NULL REFERENCES tasks(id) ON DELETE RESTRICT,\n  started_at TEXT NOT NULL,\n  ended_at TEXT,\n  actual_seconds INTEGER CHECK (actual_seconds >= 0),\n  estimated_seconds_at_start INTEGER NOT NULL CHECK (estimated_seconds_at_start BETWEEN 0 AND 31536000),\n  start_request_id TEXT NOT NULL UNIQUE,\n  finish_request_id TEXT UNIQUE,\n  CHECK ((ended_at IS NULL AND actual_seconds IS NULL AND finish_request_id IS NULL)\n    OR (ended_at IS NOT NULL AND actual_seconds IS NOT NULL AND finish_request_id IS NOT NULL AND ended_at >= started_at))\n)"
+      },
+      {
+        "name": "execution_one_active_per_task",
+        "type": "index",
+        "sql": "CREATE UNIQUE INDEX execution_one_active_per_task ON execution_logs(task_id) WHERE ended_at IS NULL"
+      },
+      {
+        "name": "execution_preserve_delete",
+        "type": "trigger",
+        "sql": "CREATE TRIGGER execution_preserve_delete BEFORE DELETE ON execution_logs\nBEGIN SELECT RAISE(ABORT, 'execution records must be preserved'); END"
+      },
+      {
+        "name": "execution_start_guard",
+        "type": "trigger",
+        "sql": "CREATE TRIGGER execution_start_guard BEFORE INSERT ON execution_logs\nWHEN NOT EXISTS (SELECT 1 FROM tasks WHERE id = NEW.task_id AND status = 'in_progress' AND deleted_at IS NULL)\nBEGIN SELECT RAISE(ABORT, 'task is not available for execution'); END"
+      },
+      {
+        "name": "plan_versions",
+        "type": "table",
+        "sql": "CREATE TABLE plan_versions (\n  plan_id TEXT NOT NULL REFERENCES plans(id) ON DELETE RESTRICT,\n  version INTEGER NOT NULL CHECK (version >= 1),\n  title TEXT NOT NULL CHECK (length(trim(title)) BETWEEN 1 AND 200),\n  period_start TEXT NOT NULL,\n  period_end TEXT NOT NULL CHECK (period_end >= period_start),\n  success_criteria TEXT NOT NULL CHECK (length(trim(success_criteria)) BETWEEN 1 AND 4000),\n  estimated_seconds INTEGER NOT NULL CHECK (estimated_seconds BETWEEN 0 AND 31536000),\n  recorded_at TEXT NOT NULL,\n  PRIMARY KEY (plan_id, version)\n)"
+      },
+      {
+        "name": "plan_versions_immutable_delete",
+        "type": "trigger",
+        "sql": "CREATE TRIGGER plan_versions_immutable_delete BEFORE DELETE ON plan_versions\nBEGIN SELECT RAISE(ABORT, 'plan versions are immutable'); END"
+      },
+      {
+        "name": "plan_versions_immutable_update",
+        "type": "trigger",
+        "sql": "CREATE TRIGGER plan_versions_immutable_update BEFORE UPDATE ON plan_versions\nBEGIN SELECT RAISE(ABORT, 'plan versions are immutable'); END"
+      },
+      {
+        "name": "plans",
+        "type": "table",
+        "sql": "CREATE TABLE plans (\n  id TEXT PRIMARY KEY NOT NULL,\n  current_version INTEGER NOT NULL CHECK (current_version >= 1),\n  created_at TEXT NOT NULL,\n  updated_at TEXT NOT NULL\n)"
+      },
+      {
+        "name": "sqlite_sequence",
+        "type": "table",
+        "sql": "CREATE TABLE sqlite_sequence(name,seq)"
+      },
+      {
+        "name": "tags",
+        "type": "table",
+        "sql": "CREATE TABLE tags (\n  id TEXT PRIMARY KEY NOT NULL,\n  name TEXT NOT NULL UNIQUE CHECK (length(trim(name)) BETWEEN 1 AND 40)\n)"
+      },
+      {
+        "name": "task_complete_guard",
+        "type": "trigger",
+        "sql": "CREATE TRIGGER task_complete_guard BEFORE UPDATE OF status ON tasks\nWHEN NEW.status = 'completed' AND EXISTS (SELECT 1 FROM execution_logs WHERE task_id = NEW.id AND ended_at IS NULL)\nBEGIN SELECT RAISE(ABORT, 'task still has an active execution'); END"
+      },
+      {
+        "name": "task_copy_source_guard",
+        "type": "trigger",
+        "sql": "CREATE TRIGGER task_copy_source_guard BEFORE INSERT ON tasks\nWHEN NEW.copied_from_task_id IS NOT NULL AND NOT EXISTS (\n  SELECT 1 FROM tasks WHERE id = NEW.copied_from_task_id AND status = 'completed' AND deleted_at IS NULL\n)\nBEGIN SELECT RAISE(ABORT, 'copy source is no longer completed'); END"
+      },
+      {
+        "name": "task_delete_active_guard",
+        "type": "trigger",
+        "sql": "CREATE TRIGGER task_delete_active_guard BEFORE UPDATE OF deleted_at ON tasks\nWHEN NEW.deleted_at IS NOT NULL AND EXISTS (SELECT 1 FROM execution_logs WHERE task_id = NEW.id AND ended_at IS NULL)\nBEGIN SELECT RAISE(ABORT, 'task still has an active execution'); END"
+      },
+      {
+        "name": "task_tags",
+        "type": "table",
+        "sql": "CREATE TABLE task_tags (\n  task_id TEXT NOT NULL REFERENCES tasks(id) ON DELETE RESTRICT,\n  tag_id TEXT NOT NULL REFERENCES tags(id) ON DELETE RESTRICT,\n  PRIMARY KEY (task_id, tag_id)\n)"
+      },
+      {
+        "name": "task_tags_tag",
+        "type": "index",
+        "sql": "CREATE INDEX task_tags_tag ON task_tags(tag_id, task_id)"
+      },
+      {
+        "name": "tasks",
+        "type": "table",
+        "sql": "CREATE TABLE tasks (\n  id TEXT PRIMARY KEY NOT NULL,\n  plan_id TEXT NOT NULL REFERENCES plans(id) ON DELETE RESTRICT,\n  content TEXT NOT NULL CHECK (length(trim(content)) BETWEEN 1 AND 2000),\n  priority TEXT NOT NULL CHECK (priority IN ('high', 'medium', 'low')),\n  due_date TEXT,\n  estimated_seconds INTEGER NOT NULL CHECK (estimated_seconds BETWEEN 0 AND 31536000),\n  status TEXT NOT NULL DEFAULT 'in_progress' CHECK (status IN ('in_progress', 'completed')),\n  completed_at TEXT,\n  copied_from_task_id TEXT REFERENCES tasks(id) ON DELETE RESTRICT,\n  created_at TEXT NOT NULL,\n  updated_at TEXT NOT NULL,\n  deleted_at TEXT,\n  CHECK ((status = 'completed' AND completed_at IS NOT NULL) OR (status = 'in_progress' AND completed_at IS NULL))\n)"
+      },
+      {
+        "name": "tasks_due_date",
+        "type": "index",
+        "sql": "CREATE INDEX tasks_due_date ON tasks(due_date)"
+      },
+      {
+        "name": "tasks_plan_active",
+        "type": "index",
+        "sql": "CREATE INDEX tasks_plan_active ON tasks(plan_id, deleted_at)"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.1356
+      },
+      "duration": 0.1356,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 58,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.0825
+      },
+      "duration": 0.0825,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 25,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "cid": 0,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "current_version",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "created_at",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "updated_at",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.0475
+      },
+      "duration": 0.0475,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 0,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "cid": 0,
+        "name": "plan_id",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "version",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 2
+      },
+      {
+        "cid": 2,
+        "name": "title",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "period_start",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "period_end",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "success_criteria",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "estimated_seconds",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "recorded_at",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.0598
+      },
+      "duration": 0.0598,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 0,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "cid": 0,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "plan_id",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "content",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "priority",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "due_date",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "estimated_seconds",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "status",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": "'in_progress'",
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "completed_at",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 8,
+        "name": "copied_from_task_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 9,
+        "name": "created_at",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 10,
+        "name": "updated_at",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 11,
+        "name": "deleted_at",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.0803
+      },
+      "duration": 0.0803,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 0,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "cid": 0,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "name",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.0612
+      },
+      "duration": 0.0612,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 0,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "cid": 0,
+        "name": "task_id",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "tag_id",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 2
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.0392
+      },
+      "duration": 0.0392,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 0,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "cid": 0,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "task_id",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "started_at",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "ended_at",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "actual_seconds",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "estimated_seconds_at_start",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "start_request_id",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "finish_request_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 1.7903
+      },
+      "duration": 1.7903,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 0,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.0596
+      },
+      "duration": 0.0596,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 0,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "id": 0,
+        "seq": 0,
+        "table": "plans",
+        "from": "plan_id",
+        "to": "id",
+        "on_update": "NO ACTION",
+        "on_delete": "RESTRICT",
+        "match": "NONE"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.0656
+      },
+      "duration": 0.0656,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 0,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "id": 0,
+        "seq": 0,
+        "table": "tasks",
+        "from": "copied_from_task_id",
+        "to": "id",
+        "on_update": "NO ACTION",
+        "on_delete": "RESTRICT",
+        "match": "NONE"
+      },
+      {
+        "id": 1,
+        "seq": 0,
+        "table": "plans",
+        "from": "plan_id",
+        "to": "id",
+        "on_update": "NO ACTION",
+        "on_delete": "RESTRICT",
+        "match": "NONE"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.0608
+      },
+      "duration": 0.0608,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 0,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.0434
+      },
+      "duration": 0.0434,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 0,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "id": 0,
+        "seq": 0,
+        "table": "tags",
+        "from": "tag_id",
+        "to": "id",
+        "on_update": "NO ACTION",
+        "on_delete": "RESTRICT",
+        "match": "NONE"
+      },
+      {
+        "id": 1,
+        "seq": 0,
+        "table": "tasks",
+        "from": "task_id",
+        "to": "id",
+        "on_update": "NO ACTION",
+        "on_delete": "RESTRICT",
+        "match": "NONE"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.0749
+      },
+      "duration": 0.0749,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 0,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "id": 0,
+        "seq": 0,
+        "table": "tasks",
+        "from": "task_id",
+        "to": "id",
+        "on_update": "NO ACTION",
+        "on_delete": "RESTRICT",
+        "match": "NONE"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.0388
+      },
+      "duration": 0.0388,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 110592,
+      "rows_read": 0,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  }
+]

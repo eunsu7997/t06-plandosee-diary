@@ -1,0 +1,24 @@
+{
+  "schema_version": "2.0.0",
+  "exported_at": "2026-10-02T07:22:36.367Z",
+  "timezone": "Asia/Seoul",
+  "export_metadata": {
+    "application": "aleph-t06-pds-diary",
+    "time_unit": "seconds",
+    "consistency": "transaction",
+    "table_counts": {
+      "plans": 0,
+      "plan_versions": 0,
+      "tasks": 0,
+      "tags": 0,
+      "task_tags": 0,
+      "execution_logs": 0
+    }
+  },
+  "plans": [],
+  "plan_versions": [],
+  "tasks": [],
+  "tags": [],
+  "task_tags": [],
+  "execution_logs": []
+}
