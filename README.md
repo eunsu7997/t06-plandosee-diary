@@ -8,7 +8,7 @@ T05의 파일·DB·배포 설정은 재사용하거나 수정하지 않습니다
 Node.js 24 이상이 필요합니다. 의존성 버전은 package-lock.json으로 고정합니다.
 
 ```powershell
-cd 'C:\Users\User\Documents\ChatGPT\과제\t06'
+cd t06-plandosee-diary  # 저장소를 받은 부모 폴더에서 시작
 npm.cmd ci
 npm.cmd run migrate
 npm.cmd run build
